@@ -18,11 +18,11 @@ public class dice {
 		String userAnswerCaps;
 		boolean repeat = true;
 		
-		diceNumber = generator.nextInt(5)+1;
 		
 		while (repeat)
 		{
 
+			diceNumber = generator.nextInt(5)+1; 
 			System.out.println("A Dice Has Been Rolled!");
 			System.out.println();
 			System.out.println("Did The Dice Land on An Even or Odd Number?");
